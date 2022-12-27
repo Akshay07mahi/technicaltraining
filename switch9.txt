@@ -1,0 +1,14 @@
+#include<;stdio.h>
+
+int main(){
+int n;
+scanf(&quot;%d&quot;, &amp;n);
+for (int r = 1;r&lt;=n; r++){
+for (int c = 1; c&lt;=r; c++){
+printf(&quot;%d&quot;, c);
+}
+printf(&quot;\n&quot;);
+}
+
+return 0;
+}

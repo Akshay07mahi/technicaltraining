@@ -1,0 +1,24 @@
+
+int  main()
+{
+    int day;
+    scanf("%d",&day);
+    switch(day){
+     case 1:// if (day==1)
+        printf("\n Boss! It's monday.Concentrate on \":work\"");
+        break;
+     case 2 ...4: // case:2  case3: case 4:
+        printf(" still it's a week day only ");
+        break;
+     case 5:
+        printf("its a friday. get ready for the weekend");
+        break;
+        case 6: case 7:
+        printf(" enjoy the holiday");
+        break;
+        
+    default:
+    printf(" invalid day");
+    } return 0;
+}
+

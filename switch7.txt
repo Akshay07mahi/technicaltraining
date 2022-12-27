@@ -1,0 +1,22 @@
+
+7) #include &lt;stdio.h&gt;
+
+int main()
+{
+for (int i=1; i&lt;=5; i++){ //row
+for (int j = 1; j&lt;=5; j++){//column
+printf(&quot;Rajath &quot;);
+}
+printf(&quot;\n&quot;);
+}
+
+return 0;
+}
+/*
+outer_loop{ //row
+&lt;statements&gt;
+inner_loop{ //column
+&lt;statements&gt;
+}
+}
+

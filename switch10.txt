@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+int n;
+scanf(&quot;%d&quot;, &amp;n);
+for (int r = n;r&gt;=1; r--){
+//printing space
+for (int c = 1;c&lt;=n-r;c++ )
+printf(&quot; &quot;);
+for (int c = r; c&gt;=1; c--){
+printf(&quot;%d&quot;, c);
+}
+printf(&quot;\n&quot;);
+}
+return 0;
+}
